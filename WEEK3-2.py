@@ -15,14 +15,36 @@ m = f // 5
 n = g // 1
 
 if x > 0:
-    print("500,", str(x) + ";", end=" ")
+    fivehundreds = "500," + str(x) + "; "
+else:
+    fivehundreds = ""
 if y > 0:
-    print("100,", str(y) + ";", end=" ")
+    onehundred = "100," + str(y) + "; "
+else:
+    onehundred = ""
 if z > 0:
-    print("50,", str(z) + ";", end=" ")
+    fifty = "50," + str(z) + "; "
+else:
+    fifty = ""
 if w > 0:
-    print("10,", str(w) + ";", end=" ")
+    ten = "10," + str(w) + "; "
+else:
+    ten = ""
 if m > 0:
-    print("5,", str(m) + ";", end=" ")
+    five = "5," + str(m) + "; "
+else:
+    five = ""
 if n > 0:
-    print("1,", str(n), end=" ")
+    one = "1," + str(n)
+else:
+    one = ""
+
+# print(fivehundreds + onehundred + fifty + ten + five + one)
+
+k = (fivehundreds + onehundred + fifty + ten + five + one)
+
+if k[-2] == ";":
+    k = k[:-2]
+    print(k)
+else:
+    print(k)
