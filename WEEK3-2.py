@@ -15,27 +15,27 @@ m = f // 5
 n = g // 1
 
 if x > 0:
-    fivehundreds = "500," + str(x) + "; "
+    fivehundreds = "500, " + str(x) + "; "
 else:
     fivehundreds = ""
 if y > 0:
-    onehundred = "100," + str(y) + "; "
+    onehundred = "100, " + str(y) + "; "
 else:
     onehundred = ""
 if z > 0:
-    fifty = "50," + str(z) + "; "
+    fifty = "50, " + str(z) + "; "
 else:
     fifty = ""
 if w > 0:
-    ten = "10," + str(w) + "; "
+    ten = "10, " + str(w) + "; "
 else:
     ten = ""
 if m > 0:
-    five = "5," + str(m) + "; "
+    five = "5, " + str(m) + "; "
 else:
     five = ""
 if n > 0:
-    one = "1," + str(n)
+    one = "1, " + str(n)
 else:
     one = ""
 
