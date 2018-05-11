@@ -18,7 +18,13 @@ while i <= 100:
     i = i + 1  # i+=1
 print(sum)
 
-#while應用
+# while應用
 exit = input("Press y or Y to exit:")
 while not (exit == "y" or exit == "Y"):
     exit = input("Press y or Y to exit:")
+
+# while應用優化
+while True:
+    exit = input("Press y or Y to exit: ")
+    if exit == "y" or exit == "Y":
+        break
