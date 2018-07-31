@@ -8,7 +8,7 @@ for i in range(len(sales)):
 stgCost = 2  # 缺貨成本
 invCost = 1000 * 0.073 / 365  # 存貨成本
 Q = 30  # 補貨一次的數量
-I = 20  # 起初的存貨量
+I = 20  # 存貨量
 
 # finding the best R
 bestR = 0
